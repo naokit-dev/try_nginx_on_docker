@@ -1,12 +1,5 @@
 #!/bin/bash
 
-##### options #####
-opptinal_packages=true
-
-install_Bootstrap=true
-install_FontAwesome=true
-###################
-
 # Rails new
 echo "docker-compose run app rails new . --force --no-deps --database=postgresql --skip-bundle"
 docker-compose run app rails new . --force --no-deps --database=postgresql --skip-bundle
